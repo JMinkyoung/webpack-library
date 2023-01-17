@@ -1,20 +1,28 @@
+
+
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "es6",
-    "strict": true,
-    "jsx": "react",
-    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "lib": ["es6","dom"],
-    "outDir": "./dist",
-  },
-  "ts-node": {
-    "compilerOptions": {
-      "module": "CommonJs"
-    }
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "outDir": "./dist"
   },
   "include": [
-    "src/**/*", "tests/**/*"],
+    "src"
+  ]
 }

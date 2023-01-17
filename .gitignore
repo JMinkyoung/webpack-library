@@ -1,7 +1,8 @@
-node_modules
+**/.vscode
+**/.DS_store
+**/.idea
 
-dist
-
-.env
-
-yarn-error.log
+**/node_modules
+**/dist
+**/build
+**/storybook-static
