@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack build",
-    "build:css": "postcss src/styles/global.css -o src/styles/main.css",
+    "build:css": "postcss src/styles/global.css -o src/styles/main.css --watch",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
