@@ -27,7 +27,7 @@ const DataDownloadModal: React.FC<DataDownloadModalType> = ({title, desc, type})
         <span>{title}</span>
         <button>닫기</button>
       </div>
-      <div className="flex flex-col justify-center items-center p-5">
+      <div className="flex flex-col justify-center items-center p-20">
         <p>{desc}</p>
         {renderDayType(type)}
       </div>

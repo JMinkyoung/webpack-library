@@ -1,3 +1,3 @@
-import { WebpackTestComponent } from "./components";
+import { DataDownloadModal } from "./components";
 
-export { WebpackTestComponent };
+export { DataDownloadModal };
